@@ -1,0 +1,23 @@
+主要工具
+rustc，cargo，rustup
+
+查看版本号
+cargo --version   --用来检查是否安装好
+rustc --version   --用来检查是否安装好
+
+更新
+rustup update   --安装好后就执行一次
+
+卸载
+rustup self uninstall
+
+rustc编译
+rustc main.rs   --编译单文件
+
+cargo命令
+cargo new project_name    --创建工程
+cargo build   --编译整个工程
+cargo run   --执行文件
+cargo check   --检查编译错误不生成执行文件，比build快
+
+
