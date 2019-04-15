@@ -1,0 +1,12 @@
+crate A
+  |_mod a1
+  |_mod a2
+  
+crate B
+  |_mod b1
+  |_mod b2
+  
+crate C
+  |_mod c1
+  |_mod c2 'extern crate A; mod c1;'
+  
